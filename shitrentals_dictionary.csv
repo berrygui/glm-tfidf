@@ -1,0 +1,11 @@
+﻿Variable,Description
+review_id,Unique identifier assigned to each review. Numeric starting at 1.
+date,Date and time of review submission.
+score,The score given to the property by the reviewer. Numeric from 1 to 5 inclusive.
+lessor,"Whether property is leased by an agent or privately. Either ""Agency"" or ""Private""."
+agency_name,"Name of the leasing agent if leased by an agent, blank otherwise."
+property_type,"Type of property. One of ""Unit/Flat"" or ""House""."
+weekly_price,Weekly rent price in AUD.
+n_bedrooms,Number of bedrooms. Numeric starting at 1.
+suburb,The suburb of the property.
+review_text,The text of the review.
